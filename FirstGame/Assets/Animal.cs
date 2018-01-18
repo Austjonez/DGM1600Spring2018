@@ -2,16 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//class is an object classification
-//You must have open and closed {} per object
-public class SecondScript : MonoBehaviour {
+public class Animal : MonoBehaviour {
 
-
-//void is a function that is void or empty or null
 	// Use this for initialization
 	void Start () {
-		
-	}
+		print("Hello Dave.");
+		print("One ring to rule them all");
+			}
 	
 	// Update is called once per frame
 	void Update () {
