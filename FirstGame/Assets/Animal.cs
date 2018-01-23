@@ -14,6 +14,7 @@ public class Animal : MonoBehaviour {
 	void OnMouseDown()
 	{
 		print("fly you fools");
+		print("*Gandolf falls");
 	}
 	// Update is called once per frame
 	void Update () {
