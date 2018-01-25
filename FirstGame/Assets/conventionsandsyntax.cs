@@ -14,3 +14,4 @@ public class conventionsandsyntax : MonoBehaviour {
 	// Void is a function that returns nothing, it still does work, it just gives you nothing
 	// Start means that once you start, it starts the function
 	// Printing just prints to the console
+}
