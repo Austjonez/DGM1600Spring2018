@@ -3,23 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Animal : MonoBehaviour {
+	public bool Rabid = false;
 
-	public string Name;
-	public int FoodCount;
-
-	// Use this for initialization
-	void Start () {
-		print("Hello Dave.");
-		print("One ring to rule them all");
-		print("yer a wizard, harry");
-		print("join me, and together we can rule the galaxy as father and son");
-			}
-	void OnMouseDown() {
-		print(Name);
-		print(FoodCount);
+	void Start()
+	{
+		print("there are two dogs, one of them is rabid");
 	}
-	// Update is called once per frame
-	void Update () {
-		
+
+	void OnMouseDown()
+	{
+		if (Rabid == true)
+		{
+			print("The dog bites you");
+		}
 	}
 }
