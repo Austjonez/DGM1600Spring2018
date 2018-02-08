@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37492d8d44d8dfe4283760895c2c06a1, type: 3}
-  m_Name: Ammo
+  m_Name: Small
   m_EditorClassIdentifier: 
-  PowerLevel: 100
-  Name: Ammo
+  PowerLevel: 10
+  CurrentPlayer: {fileID: 11400000, guid: 0a4c3cf64c95f1d4cb0f2a7d85fd8c34, type: 2}
