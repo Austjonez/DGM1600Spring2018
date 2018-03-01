@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class PowerUpBase : ScriptableObject {
+[CreateAssetMenu]
+public class PowerUp : ScriptableObject {
 
 	public int PowerLevel;
 	
