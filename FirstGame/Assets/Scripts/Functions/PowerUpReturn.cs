@@ -12,7 +12,7 @@ public class PowerUpReturn : MonoBehaviour {
 	public int IncreasePowerLevel ()
 	{
 		PowerLevel += PowerLevelIncrease;
-		PowerLevel *= PowerLevelIncrease
+		PowerLevel *= PowerLevelIncrease;
 		return PowerLevel;
 	}
 
