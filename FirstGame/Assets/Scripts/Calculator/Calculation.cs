@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class Calculation : ScriptableObject {
+public abstract class Calculation : ScriptableObject {
 
-	public int Calculate (string a, string b)
-	{
-		int anum = int.Parse(a);
-		int bnum = int.Parse(b);
+	public float anum;
+	public float bnum;
 
-		return anum + bnum;
-	}
+	public abstract float Calculate (string a, string b);
+
 	
 }
