@@ -4,10 +4,18 @@ using UnityEngine;
 
 public abstract class Calculation : ScriptableObject {
 
-	public float anum;
-	public float bnum;
+	protected float anum;
+	protected float bnum;
 
-	public abstract float Calculate (string a, string b);
+	public string Calculate (string a, string b)
+	{
+		anum = float.Parse(a);
+		anum = float.Parse(b);
+
+		return FinishCalculation();
+	}
+
+	public abstract string FinishCalculation();
 
 	
 }
