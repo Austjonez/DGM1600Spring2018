@@ -6,5 +6,11 @@ using UnityEngine;
 public class PowerUp : ScriptableObject {
 
 	public int PowerLevel;
+
+	public Move MovePatternTransfer;
+	public Move Transfer()
+	{
+		return MovePatternTransfer;
+	}
 	
 }
