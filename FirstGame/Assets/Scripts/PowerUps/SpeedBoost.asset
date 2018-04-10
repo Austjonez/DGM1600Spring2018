@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37492d8d44d8dfe4283760895c2c06a1, type: 3}
-  m_Name: Death
+  m_Name: SpeedBoost
   m_EditorClassIdentifier: 
   PowerLevel: 0
-  MovePatternTransfer: {fileID: 11400000, guid: 9b268523220187640a18ebb00bf9e286,
+  MovePatternTransfer: {fileID: 11400000, guid: 27ba5831db8b96048ad3f49cb112c14c,
     type: 2}
