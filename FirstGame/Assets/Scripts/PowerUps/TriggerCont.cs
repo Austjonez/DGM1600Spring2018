@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trigger : MonoBehaviour {
+public class TriggerCont : MonoBehaviour {
 
 	public PowerUp PowerUpTransfer;
 	private Move PrevMove;
@@ -12,8 +12,5 @@ public class Trigger : MonoBehaviour {
 		PrevMove = obj.GetComponent<MoveCharacter>().Move;
 
 		obj.GetComponent<MoveCharacter>().Move = PowerUpTransfer.Transfer();
-		
-		gameObject.SetActive(false);
 	}
-
 }
