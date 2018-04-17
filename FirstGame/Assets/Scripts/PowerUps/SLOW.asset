@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37492d8d44d8dfe4283760895c2c06a1, type: 3}
-  m_Name: DEATH
+  m_Name: SLOW
   m_EditorClassIdentifier: 
   PowerLevel: 0
-  MovePatternTransfer: {fileID: 11400000, guid: c6a0ab7398bed6e4a8332102a39c6712,
+  MovePatternTransfer: {fileID: 11400000, guid: 9b268523220187640a18ebb00bf9e286,
     type: 2}
