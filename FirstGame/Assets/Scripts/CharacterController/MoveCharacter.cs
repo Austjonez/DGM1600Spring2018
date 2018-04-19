@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveCharacter : MonoBehaviour {
 
-	public Move Move;
+	public Player Player;
 	private CharacterController controller;
 
 
@@ -14,6 +14,6 @@ public class MoveCharacter : MonoBehaviour {
 	}
 
     void Update() {
-       Move.Movement(controller, transform);
+       Player.Move.Movement(controller, transform);
     }
 }

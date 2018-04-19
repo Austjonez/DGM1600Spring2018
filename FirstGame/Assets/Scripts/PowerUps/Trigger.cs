@@ -9,9 +9,9 @@ public class Trigger : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider obj)
 	{
-		PrevMove = obj.GetComponent<MoveCharacter>().Move;
+		PrevMove = obj.GetComponent<MoveCharacter>().Player.Move;
 
-		obj.GetComponent<MoveCharacter>().Move = PowerUpTransfer.Transfer();
+		obj.GetComponent<MoveCharacter>().Player.Move = PowerUpTransfer.Transfer();
 		
 		gameObject.SetActive(false);
 	}

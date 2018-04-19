@@ -7,4 +7,6 @@ public class Player : ScriptableObject {
 
 	public int Health;
 
+	public Move Move;
+
 }

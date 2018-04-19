@@ -13,9 +13,10 @@ public class Health : MonoBehaviour {
 	void OnTriggerEnter(Collider obj)
 	{
 		HealthBar.fillAmount = PowerLevel;
+	
 		if (HealthBar.fillAmount == 0)
 		{
-			obj.GetComponent<MoveCharacter>().Move = PowerUpTransfer.MovePatternTransfer;
+			obj.GetComponent<MoveCharacter>().Player.Move = PowerUpTransfer.MovePatternTransfer;
 		}
 		
 	}
