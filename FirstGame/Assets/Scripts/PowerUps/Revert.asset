@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Revert
   m_EditorClassIdentifier: 
   PowerLevel: 0
-  MovePatternTransfer: {fileID: 11400000, guid: 5464b5b461fb0cb469cb503fa0754907,
+  MovePatternTransfer: {fileID: 11400000, guid: 4a640b1b2227c2c4d8779553f2803b47,
     type: 2}

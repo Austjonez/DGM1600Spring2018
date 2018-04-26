@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: Player1
   m_EditorClassIdentifier: 
   Health: 0
-  Move: {fileID: 11400000, guid: 5464b5b461fb0cb469cb503fa0754907, type: 2}
+  Move: {fileID: 11400000, guid: c6a0ab7398bed6e4a8332102a39c6712, type: 2}

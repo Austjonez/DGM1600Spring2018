@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 11400000, guid: 57cb125188876054886cf24a264c42e8, type: 2}
-  Move: {fileID: 11400000, guid: 5464b5b461fb0cb469cb503fa0754907, type: 2}
+  Move: {fileID: 11400000, guid: 4a640b1b2227c2c4d8779553f2803b47, type: 2}
 --- !u!114 &114339319245554954
 MonoBehaviour:
   m_ObjectHideFlags: 1
